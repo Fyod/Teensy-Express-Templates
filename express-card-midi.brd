@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -89,23 +89,23 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.75" y1="0.1" x2="0.75" y2="3.4" width="0" layer="20"/>
-<wire x1="0" y1="4.15" x2="0.75" y2="3.4" width="0" layer="20" curve="-90"/>
-<wire x1="18.85" y1="60.20985625" x2="18.85" y2="4.173209375" width="0" layer="20"/>
-<wire x1="18.85" y1="4.173209375" x2="17.976790625" y2="3.3" width="0" layer="20" curve="-90"/>
-<wire x1="17.976790625" y1="3.3" x2="17.7" y2="3.3" width="0" layer="20"/>
-<wire x1="0.75" y1="0.1" x2="16.7" y2="0.1" width="0" layer="20"/>
-<wire x1="16.7" y1="0.1" x2="16.7" y2="2.9" width="0" layer="20"/>
-<wire x1="17.7" y1="3.3" x2="17.1" y2="3.3" width="0" layer="20"/>
-<wire x1="17.1" y1="3.3" x2="16.7" y2="2.9" width="0" layer="20" curve="90"/>
-<wire x1="18.85" y1="60.20985625" x2="17.45985625" y2="61.6" width="0" layer="20" curve="90"/>
-<wire x1="12.96" y1="63.967925" x2="12.96" y2="62.272009375" width="0" layer="20"/>
-<wire x1="12.96" y1="62.272009375" x2="13.632009375" y2="61.6" width="0" layer="20" curve="90"/>
-<wire x1="13.632009375" y1="61.6" x2="17.45985625" y2="61.6" width="0" layer="20"/>
-<wire x1="0" y1="65.1" x2="11.827925" y2="65.1" width="0" layer="20"/>
-<wire x1="11.827925" y1="65.1" x2="12.96" y2="63.967925" width="0" layer="20" curve="-90"/>
-<wire x1="0" y1="4.15" x2="0" y2="6.8" width="0" layer="20"/>
-<wire x1="0" y1="6.8" x2="0" y2="65.1" width="0" layer="20"/>
+<wire x1="12.75" y1="0.1" x2="12.75" y2="3.4" width="0" layer="20"/>
+<wire x1="12" y1="4.15" x2="12.75" y2="3.4" width="0" layer="20" curve="-90"/>
+<wire x1="30.85" y1="60.20985625" x2="30.85" y2="4.173209375" width="0" layer="20"/>
+<wire x1="30.85" y1="4.173209375" x2="29.976790625" y2="3.3" width="0" layer="20" curve="-90"/>
+<wire x1="29.976790625" y1="3.3" x2="29.7" y2="3.3" width="0" layer="20"/>
+<wire x1="12.75" y1="0.1" x2="28.7" y2="0.1" width="0" layer="20"/>
+<wire x1="28.7" y1="0.1" x2="28.7" y2="2.9" width="0" layer="20"/>
+<wire x1="29.7" y1="3.3" x2="29.1" y2="3.3" width="0" layer="20"/>
+<wire x1="29.1" y1="3.3" x2="28.7" y2="2.9" width="0" layer="20" curve="90"/>
+<wire x1="30.85" y1="60.20985625" x2="29.45985625" y2="61.6" width="0" layer="20" curve="90"/>
+<wire x1="24.96" y1="63.967925" x2="24.96" y2="62.272009375" width="0" layer="20"/>
+<wire x1="24.96" y1="62.272009375" x2="25.632009375" y2="61.6" width="0" layer="20" curve="90"/>
+<wire x1="25.632009375" y1="61.6" x2="29.45985625" y2="61.6" width="0" layer="20"/>
+<wire x1="12" y1="65.1" x2="23.827925" y2="65.1" width="0" layer="20"/>
+<wire x1="23.827925" y1="65.1" x2="24.96" y2="63.967925" width="0" layer="20" curve="-90"/>
+<wire x1="12" y1="4.15" x2="12" y2="6.8" width="0" layer="20"/>
+<wire x1="12" y1="6.8" x2="12" y2="65.1" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="teensy-express">
@@ -368,13 +368,13 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="teensy-express" package="FULL-MINI-PCI-E" value="FULL-MINI-PCI-E" x="0" y="0"/>
+<element name="U$1" library="teensy-express" package="FULL-MINI-PCI-E" value="FULL-MINI-PCI-E" x="12" y="0"/>
 </elements>
 <signals>
 <signal name="LATCH">
 <contactref element="U$1" pad="LATCH@1"/>
 <contactref element="U$1" pad="LATCH@2"/>
-<wire x1="-8.25" y1="58.85" x2="15.95" y2="58.85" width="0" layer="19" extent="1-1"/>
+<wire x1="3.75" y1="58.85" x2="27.95" y2="58.85" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

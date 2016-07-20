@@ -89,37 +89,37 @@
 </layers>
 <board>
 <plain>
-<wire x1="-0.75" y1="0.1" x2="-0.75" y2="3.4" width="0" layer="20"/>
-<wire x1="0.75" y1="0.1" x2="0.75" y2="3.4" width="0" layer="20"/>
-<wire x1="-0.75" y1="3.4" x2="0.75" y2="3.4" width="0" layer="20" curve="-180"/>
-<wire x1="-0.75" y1="0.1" x2="-9" y2="0.1" width="0" layer="20"/>
-<wire x1="-9" y1="0.1" x2="-9" y2="2.9" width="0" layer="20"/>
-<wire x1="-9.4" y1="3.3" x2="-31.279346875" y2="3.3" width="0" layer="20"/>
-<wire x1="-31.279346875" y1="3.3" x2="-32.5" y2="4.520653125" width="0" layer="20" curve="-90"/>
-<wire x1="-32.5" y1="4.520653125" x2="-32.5" y2="63.891696875" width="0" layer="20"/>
-<wire x1="-9.4" y1="3.3" x2="-9" y2="2.9" width="0" layer="20" curve="-90"/>
-<wire x1="18.85" y1="60.20985625" x2="18.85" y2="4.173209375" width="0" layer="20"/>
-<wire x1="18.85" y1="4.173209375" x2="17.976790625" y2="3.3" width="0" layer="20" curve="-90"/>
-<wire x1="17.976790625" y1="3.3" x2="17.7" y2="3.3" width="0" layer="20"/>
-<wire x1="0.75" y1="0.1" x2="16.7" y2="0.1" width="0" layer="20"/>
-<wire x1="16.7" y1="0.1" x2="16.7" y2="2.9" width="0" layer="20"/>
-<wire x1="17.7" y1="3.3" x2="17.1" y2="3.3" width="0" layer="20"/>
-<wire x1="17.1" y1="3.3" x2="16.7" y2="2.9" width="0" layer="20" curve="90"/>
-<wire x1="-32.5" y1="63.891696875" x2="-31.291696875" y2="65.1" width="0" layer="20" curve="-90"/>
-<wire x1="-31.291696875" y1="65.1" x2="-12.672075" y2="65.1" width="0" layer="20"/>
-<wire x1="-5.6495875" y1="61.6" x2="-5.04" y2="62.2095875" width="0" layer="20" curve="90"/>
-<wire x1="-5.04" y1="62.2095875" x2="-5.04" y2="63.874603125" width="0" layer="20"/>
-<wire x1="18.85" y1="60.20985625" x2="17.45985625" y2="61.6" width="0" layer="20" curve="90"/>
-<wire x1="12.96" y1="63.967925" x2="12.96" y2="62.272009375" width="0" layer="20"/>
-<wire x1="12.96" y1="62.272009375" x2="13.632009375" y2="61.6" width="0" layer="20" curve="90"/>
-<wire x1="13.632009375" y1="61.6" x2="17.45985625" y2="61.6" width="0" layer="20"/>
-<wire x1="-5.04" y1="63.874603125" x2="-3.814603125" y2="65.1" width="0" layer="20" curve="-90"/>
-<wire x1="-3.814603125" y1="65.1" x2="11.827925" y2="65.1" width="0" layer="20"/>
-<wire x1="11.827925" y1="65.1" x2="12.96" y2="63.967925" width="0" layer="20" curve="-90"/>
-<wire x1="-11.54" y1="63.967925" x2="-11.54" y2="62.272009375" width="0" layer="20"/>
-<wire x1="-11.54" y1="62.272009375" x2="-10.867990625" y2="61.6" width="0" layer="20" curve="90"/>
-<wire x1="-12.672075" y1="65.1" x2="-11.54" y2="63.967925" width="0" layer="20" curve="-90"/>
-<wire x1="-10.867990625" y1="61.6" x2="-5.6495875" y2="61.6" width="0" layer="20"/>
+<wire x1="32.27" y1="0.1" x2="32.27" y2="3.4" width="0" layer="20"/>
+<wire x1="33.77" y1="0.1" x2="33.77" y2="3.4" width="0" layer="20"/>
+<wire x1="32.27" y1="3.4" x2="33.77" y2="3.4" width="0" layer="20" curve="-180"/>
+<wire x1="32.27" y1="0.1" x2="24.02" y2="0.1" width="0" layer="20"/>
+<wire x1="24.02" y1="0.1" x2="24.02" y2="2.9" width="0" layer="20"/>
+<wire x1="23.62" y1="3.3" x2="1.740653125" y2="3.3" width="0" layer="20"/>
+<wire x1="1.740653125" y1="3.3" x2="0.52" y2="4.520653125" width="0" layer="20" curve="-90"/>
+<wire x1="0.52" y1="4.520653125" x2="0.52" y2="63.891696875" width="0" layer="20"/>
+<wire x1="23.62" y1="3.3" x2="24.02" y2="2.9" width="0" layer="20" curve="-90"/>
+<wire x1="51.87" y1="60.20985625" x2="51.87" y2="4.173209375" width="0" layer="20"/>
+<wire x1="51.87" y1="4.173209375" x2="50.996790625" y2="3.3" width="0" layer="20" curve="-90"/>
+<wire x1="50.996790625" y1="3.3" x2="50.72" y2="3.3" width="0" layer="20"/>
+<wire x1="33.77" y1="0.1" x2="49.72" y2="0.1" width="0" layer="20"/>
+<wire x1="49.72" y1="0.1" x2="49.72" y2="2.9" width="0" layer="20"/>
+<wire x1="50.72" y1="3.3" x2="50.12" y2="3.3" width="0" layer="20"/>
+<wire x1="50.12" y1="3.3" x2="49.72" y2="2.9" width="0" layer="20" curve="90"/>
+<wire x1="0.52" y1="63.891696875" x2="1.728303125" y2="65.1" width="0" layer="20" curve="-90"/>
+<wire x1="1.728303125" y1="65.1" x2="20.347925" y2="65.1" width="0" layer="20"/>
+<wire x1="27.3704125" y1="61.6" x2="27.98" y2="62.2095875" width="0" layer="20" curve="90"/>
+<wire x1="27.98" y1="62.2095875" x2="27.98" y2="63.874603125" width="0" layer="20"/>
+<wire x1="51.87" y1="60.20985625" x2="50.47985625" y2="61.6" width="0" layer="20" curve="90"/>
+<wire x1="45.98" y1="63.967925" x2="45.98" y2="62.272009375" width="0" layer="20"/>
+<wire x1="45.98" y1="62.272009375" x2="46.652009375" y2="61.6" width="0" layer="20" curve="90"/>
+<wire x1="46.652009375" y1="61.6" x2="50.47985625" y2="61.6" width="0" layer="20"/>
+<wire x1="27.98" y1="63.874603125" x2="29.205396875" y2="65.1" width="0" layer="20" curve="-90"/>
+<wire x1="29.205396875" y1="65.1" x2="44.847925" y2="65.1" width="0" layer="20"/>
+<wire x1="44.847925" y1="65.1" x2="45.98" y2="63.967925" width="0" layer="20" curve="-90"/>
+<wire x1="21.48" y1="63.967925" x2="21.48" y2="62.272009375" width="0" layer="20"/>
+<wire x1="21.48" y1="62.272009375" x2="22.152009375" y2="61.6" width="0" layer="20" curve="90"/>
+<wire x1="20.347925" y1="65.1" x2="21.48" y2="63.967925" width="0" layer="20" curve="-90"/>
+<wire x1="22.152009375" y1="61.6" x2="27.3704125" y2="61.6" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="teensy-express">
@@ -384,13 +384,13 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="teensy-express" package="FULL-MINI-PCI-E" value="FULL-MINI-PCI-E" x="0" y="0"/>
+<element name="U$1" library="teensy-express" package="FULL-MINI-PCI-E" value="FULL-MINI-PCI-E" x="33.02" y="0"/>
 </elements>
 <signals>
 <signal name="LATCH">
 <contactref element="U$1" pad="LATCH@1"/>
 <contactref element="U$1" pad="LATCH@2"/>
-<wire x1="-8.25" y1="58.85" x2="15.95" y2="58.85" width="0" layer="19" extent="1-1"/>
+<wire x1="24.77" y1="58.85" x2="48.97" y2="58.85" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
